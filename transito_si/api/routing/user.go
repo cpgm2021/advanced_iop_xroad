@@ -7,6 +7,6 @@ import (
 )
 
 func UserRouting(r *gin.RouterGroup) {
-	r.GET("/citizen/transit-registry", controller.GETUser)
+	r.GET("/citizen/runt-registry", controller.GETUser)
 	r.POST("/citizen/transit-registry/create", controller.POSTUser)
 }
